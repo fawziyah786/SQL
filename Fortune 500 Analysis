@@ -1,0 +1,11 @@
+---my first query is to see what the min maternaty leave is for each compay within fortune 500 compamies.
+
+SELECT MIN(maternity_leave_weeks),company_name
+FROM fortune_companies
+GROUP BY company_name;
+
+SELECT*
+FROM fortune_companies;
+
+SELECT
+FROM fortune_companies
