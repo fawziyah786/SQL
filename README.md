@@ -7,3 +7,7 @@ GROUP BY item_name;
 SELECT*
 FROM superstore
 ORDER BY price;
+
+SELECT max(price),category
+FROM superstore
+WHERE category='Kitchen Supplies';
