@@ -11,3 +11,7 @@ ORDER BY price;
 SELECT max(price),category
 FROM superstore
 WHERE category='Kitchen Supplies';
+
+SELECT MIN(average_rating),item_name
+FROM superstore
+GROUP BY item_name;
