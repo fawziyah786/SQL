@@ -7,5 +7,3 @@ GROUP BY company_name;
 SELECT*
 FROM fortune_companies;
 
-SELECT
-FROM fortune_companies
